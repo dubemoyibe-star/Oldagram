@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 480px;
+    margin: 0 auto;
+    border:1px solid black;
+    border-radius: 11px;
+}
+
+.logo {
+    width:120px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #b4b4b4;
+    margin-bottom: 45px;
+}
+
+.profile-img, .vangogh-img{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile-img{
+    background-image: url(images/user-avatar.png);
+}
+
+.vangogh-img{
+    background-image: url(images/avatar-vangogh.jpg);
+    margin-left: 15px;
+}
+
+.details{
+    display: flex;
+     margin-bottom: 10px;
+}
+
+.user-details{
+    margin-left: 15px;
+   }
+.user-details p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.user-details .name{
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+ 
+}
+
+.city{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.post{
+    width: 480px;
+    height: 480px;
+    background-image: url(images/post-vangogh.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icon{
+    width: 30px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.likes{
+    margin-left: 10px;
+    font-weight: 600;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.likes span{
+    font-weight: 800;
+}
+
+#heart-el:active{
+    transform: translate(5px, 5px);
+}
+
+
+
