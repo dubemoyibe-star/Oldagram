@@ -28,12 +28,13 @@ const posts = [
     }
 ]
 
-let heartEl = document.getElementById("heart-el")
+
 let likesEl = document.getElementById("likes-el")
 let postEl = document.getElementById("post-el")
+let heartIconEl = document.getElementById("hearticon-el")
 let isLiked = false
 
-heartEl.addEventListener("click" , function(){
+heartIconEl.addEventListener("click" , function(){
     if (isLiked){
        renderUnlike()
     }else {
@@ -55,13 +56,16 @@ function  render(){
      let recentLike = posts[0].likes + 1
      likesEl.innerHTML = ""
      likesEl.innerHTML += `${recentLike} likes `
+     heartIconEl.innerHTML = ""
+     heartIconEl.innerHTML = `<img src="images/redheart.png" class="icon">`  
+     
 }
 
 function  renderUnlike(){
      let recentLike = posts[0].likes 
      likesEl.innerHTML = ""
-     likesEl.innerHTML += `${recentLike} likes `
-     
+     likesEl.innerHTML += `${recentLike} likes`
+     heartIconEl.innerHTML = `<img src="images/icon-heart.png" class="icon">`
 }
 
 
