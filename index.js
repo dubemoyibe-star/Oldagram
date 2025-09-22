@@ -57,7 +57,7 @@ function  render(){
      likesEl.innerHTML = ""
      likesEl.innerHTML += `${recentLike} likes `
      heartIconEl.innerHTML = ""
-     heartIconEl.innerHTML = `<img src="images/redheart.png" class="icon">`  
+     heartIconEl.innerHTML = `<img src="images/heart.png" class="icon">`  
      
 }
 
