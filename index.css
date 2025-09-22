@@ -4,7 +4,7 @@ html, body {
 }
 
 .container{
-    width: 100%;
+    width: 480px;
     margin: 0 auto;
     border:1px solid black;
     border-radius: 11px;
@@ -67,13 +67,12 @@ header{
 }
 
 .post{
-    width:100%;
+    width: 480px;
     height: 600px;
     background-image: url(images/post-vangogh.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    object-fit: contain;
 }
 .icon{
     width: 30px;
