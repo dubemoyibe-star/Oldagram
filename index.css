@@ -12,6 +12,7 @@ html, body {
 
 .logo {
     width:120px;
+    cursor: pointer;
 }
 
 header{
